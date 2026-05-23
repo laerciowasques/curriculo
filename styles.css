@@ -5,6 +5,9 @@
   --gold: #b5a67c;
   --gold-dark: #9a8c66;
   --gold-light: #d4c9a8;
+  --tourmaline: #d4517f;
+  --tourmaline-dark: #b8366a;
+  --tourmaline-light: #f0a8c4;
   --gray-text: #444444;
   --gray-light: #f5f5f5;
   --sidebar-width: 32%;
@@ -1014,4 +1017,62 @@ img {
   .social-btn:hover {
     transform: none;
   }
+
+  .accounting-footer {
+    break-inside: avoid;
+  }
+}
+
+/* ===== Rodapé — símbolos da Contabilidade ===== */
+.accounting-footer {
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 0 1.5rem;
+}
+
+.accounting-footer-line {
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--tourmaline-light) 12%,
+    var(--tourmaline) 50%,
+    var(--tourmaline-light) 88%,
+    transparent 100%
+  );
+  border-radius: 2px;
+  box-shadow: 0 0 12px rgba(212, 81, 127, 0.35);
+}
+
+.accounting-footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem 1rem 0;
+  text-align: center;
+}
+
+.caduceus {
+  width: 48px;
+  height: 72px;
+  color: var(--tourmaline);
+  filter: drop-shadow(0 2px 6px rgba(212, 81, 127, 0.25));
+}
+
+.accounting-footer-text {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #777;
+  line-height: 1.6;
+}
+
+.accounting-footer-title {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--tourmaline-dark);
+  letter-spacing: 0.14em;
+  margin-bottom: 0.2rem;
 }
