@@ -258,12 +258,53 @@ img {
   padding: 0.5rem 2rem;
 }
 
+.hero-subtitle {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--gray-text);
+  font-weight: 500;
+}
+
 .hero-tagline {
-  margin-top: 0.85rem;
+  margin-top: 0.65rem;
   font-size: 0.82rem;
   color: var(--gold-dark);
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.hero-linkedin {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--gold-dark);
+  font-weight: 600;
+}
+
+.hero-linkedin:hover {
+  color: var(--gold);
+}
+
+.recommendation {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1rem 1rem 1.25rem;
+  border-left: 3px solid var(--gold);
+  background: var(--gray-light);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.recommendation p {
+  font-style: italic;
+  color: var(--gray-text);
+  margin-bottom: 0.5rem;
+}
+
+.recommendation cite {
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--gold-dark);
 }
 
 .content-section {

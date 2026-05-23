@@ -4,12 +4,12 @@
  */
 
 const SKILLS_BARS = [
-  { label: "Controladoria", value: 95 },
-  { label: "Fechamento contábil", value: 93 },
-  { label: "Gestão de custos", value: 90 },
-  { label: "Automação de processos", value: 88 },
+  { label: "Demonstrações financeiras", value: 95 },
+  { label: "Fechamento e reporte", value: 93 },
+  { label: "SAP / Oracle / Protheus", value: 90 },
+  { label: "Gestão de custos", value: 88 },
   { label: "Auditoria e controles", value: 87 },
-  { label: "ERP / SAP", value: 85 },
+  { label: "Inglês profissional", value: 85 },
 ];
 
 const RADAR_LABELS = [
