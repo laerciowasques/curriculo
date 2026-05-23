@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/pocket", "destination": "/index-pocket.html" },
+    { "source": "/linkedin", "destination": "/index-pocket.html" }
+  ]
+}
