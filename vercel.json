@@ -1,9 +1,8 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/index-pocket.html" },
     { "source": "/pocket", "destination": "/index-pocket.html" },
     { "source": "/linkedin", "destination": "/index-pocket.html" },
-    { "source": "/completo", "destination": "/index.html" }
+    { "source": "/completo", "destination": "/curriculo-completo.html" }
   ],
   "headers": [
     {
