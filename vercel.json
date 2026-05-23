@@ -1,6 +1,16 @@
 {
   "rewrites": [
+    { "source": "/", "destination": "/index-pocket.html" },
     { "source": "/pocket", "destination": "/index-pocket.html" },
-    { "source": "/linkedin", "destination": "/index-pocket.html" }
+    { "source": "/linkedin", "destination": "/index-pocket.html" },
+    { "source": "/completo", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
   ]
 }
